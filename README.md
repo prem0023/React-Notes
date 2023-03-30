@@ -8,6 +8,7 @@ And here emmet cam in picture, we can write css expresseion that can be dynamica
 For example,
 
 If you want to write below code ->
+<!--
 <page>
       <div class="logo"></div>
       <ul id="navigation">
@@ -25,3 +26,4 @@ you just have to write page>div.logo+ul#navigation>li*5>a{Item $}
 + used to add another tag after one tag
 # used to specify id
 * used to count of tag you want to write
+-->
