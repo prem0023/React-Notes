@@ -19,7 +19,7 @@ If you want to write below code ->
         <li><a href="">Item 5</a></li>
       </ul>
 </page>
-</pre>
+<pre>
 you just have to write page>div.logo+ul#navigation>li*5>a{Item $}
 <pre>
 > used to write any tag inside of another tag
@@ -27,4 +27,4 @@ you just have to write page>div.logo+ul#navigation>li*5>a{Item $}
 + used to add another tag after one tag
 # used to specify id
 * used to count of tag you want to write
-</pre>
+<pre>
