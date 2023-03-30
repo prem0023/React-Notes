@@ -19,8 +19,9 @@ If you want to write below code ->
         <li><a href="">Item 5</a></li>
       </ul>
 </page>
-
+</pre>
 you just have to write page>div.logo+ul#navigation>li*5>a{Item $}
+<pre>
 > used to write any tag inside of another tag
 . used to specify class name
 + used to add another tag after one tag
