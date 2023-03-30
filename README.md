@@ -9,16 +9,16 @@ For example,
 
 If you want to write below code ->
 <pre>
-<page>
-      <div class="logo"></div>
-      <ul id="navigation">
-        <li><a href="">Item 1</a></li>
-        <li><a href="">Item 2</a></li>
-        <li><a href="">Item 3</a></li>
-        <li><a href="">Item 4</a></li>
-        <li><a href="">Item 5</a></li>
-      </ul>
-</page>
+&lt;page&gt;
+      &lt;div class="logo"&gt;&lt;/div&gt;
+      &lt;ul id="navigation"&gt;
+        &lt;li&gt;&lt;a href=""&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=""&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=""&gt;Item 3&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=""&gt;Item 4&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=""&gt;Item 5&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+&lt;/page&lt;
 <pre>
 you just have to write page>div.logo+ul#navigation>li*5>a{Item $}
 <pre>
