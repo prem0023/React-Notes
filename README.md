@@ -18,7 +18,7 @@ If you want to write below code ->
         &lt;li&gt;&lt;a href=""&gt;Item 4&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=""&gt;Item 5&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
-&lt;/page&lt;
+&lt;/page&gt
 <pre>
 you just have to write page>div.logo+ul#navigation>li*5>a{Item $}
 <pre>
