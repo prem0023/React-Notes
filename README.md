@@ -18,8 +18,8 @@ If you want to write below code ->
         &lt;li&gt;&lt;a href=""&gt;Item 4&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=""&gt;Item 5&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
-&lt;/page&gt
-<pre>
+&lt;/page&gt;
+</pre>
 you just have to write page>div.logo+ul#navigation>li*5>a{Item $}
 <pre>
 > used to write any tag inside of another tag
@@ -27,4 +27,10 @@ you just have to write page>div.logo+ul#navigation>li*5>a{Item $}
 + used to add another tag after one tag
 # used to specify id
 * used to count of tag you want to write
-<pre>
+</pre>
+
+## Difference between a Library and Framework?
+A library is a collection of reusable code that developers can use to perform specific tasks or add functionality to their applications, it usually consist of a set of functions or classes. It does not dictate the overall structure or design of the application. Developers have more control over the application's overall design and architecture when using libraries.
+Framework is a more comprehensive software architecture that provides a complete structure for developing applications. It often include libraries, but they also include additional components such as templates, APIs. Developers may have less control over the specific implementation details of the application.
+
+## What is CDN? Why do we use it?
