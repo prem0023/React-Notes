@@ -33,5 +33,8 @@ you just have to write page>div.logo+ul#navigation>li*5>a{Item $}
 A library is a collection of reusable code that developers can use to perform specific tasks or add functionality to their applications, it usually consist of a set of functions or classes. It does not dictate the overall structure or design of the application. Developers have more control over the application's overall design and architecture when using libraries.
 Framework is a more comprehensive software architecture that provides a complete structure for developing applications. It often include libraries, but they also include additional components such as templates, APIs. Developers may have less control over the specific implementation details of the application.
 
-## What is CDN? Why do we use it?
+##  What is crossorigin in script tag?
+Cross-Origin Resource Sharing (CORS) is a mechanism that allows web applications to make requests to a domain that is different from the domain of the origin of the application. The Same-Origin Policy (SOP) restricts web pages from making requests to a different domain than the one that served the page. SOP is a security measure to prevent malicious code from accessing sensitive data.
+CORS enables a web page to include content from another domain in a safe manner by using HTTP headers to allow or deny access to resources. The web server hosting the resource needs to explicitly allow cross-origin requests by adding an Access-Control-Allow-Origin header in the response. This header specifies the origin that is allowed to access the resource. If the requested origin is not in the Access-Control-Allow-Origin header, the browser blocks the request.
+CORS is a critical security feature for modern web applications that rely on third-party APIs and resources. Without CORS, it would be impossible to build rich, dynamic web applications that integrate with various services and data sources.
 
