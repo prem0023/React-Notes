@@ -34,3 +34,4 @@ A library is a collection of reusable code that developers can use to perform sp
 Framework is a more comprehensive software architecture that provides a complete structure for developing applications. It often include libraries, but they also include additional components such as templates, APIs. Developers may have less control over the specific implementation details of the application.
 
 ## What is CDN? Why do we use it?
+
